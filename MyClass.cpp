@@ -1,6 +1,10 @@
-#include "Myclass.h"
+#include "MyClass.h"
+#include <iostream>
+#include <string>
 
-MyClass::MyClass()
+using namespace std;
+
+MyClass::MyClass():str("ABC")
 {
-
 }
+
