@@ -17,7 +17,11 @@ void PrintStr()
 }
 int KolStr()
 {
-    return 3;
+    return str.length();
+}
+void debug()
+{
+    cout<<str<<endl;
 }
 
 };

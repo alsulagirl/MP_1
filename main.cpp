@@ -10,6 +10,7 @@ int main()
 
     cout<< first->KolStr() <<endl;
     first->PrintStr();
+    first->debug();
 
     return 0;
 }
